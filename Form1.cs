@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace HSE_Graphic_Paint
 {
+
+    List<Line> Lines1 = new List<Line>();
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -20,6 +23,11 @@ namespace HSE_Graphic_Paint
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void PBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }

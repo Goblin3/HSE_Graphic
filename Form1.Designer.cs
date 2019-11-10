@@ -42,6 +42,7 @@
             this.pBox1.Size = new System.Drawing.Size(763, 333);
             this.pBox1.TabIndex = 0;
             this.pBox1.TabStop = false;
+            this.pBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PBox1_MouseMove);
             // 
             // btMakeLine
             // 
